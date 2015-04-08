@@ -431,6 +431,14 @@
                                 <format>xml</format>
                             </formats>
                         </configuration>
+						<dependencies>
+							<exclusions>
+								<exclusion>
+									<groupId>ch.qos.logback</groupId>
+                                    <artifactId>logback-classic</artifactId>
+								</exclusion>
+							</exclusions>
+						</dependencies>
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
